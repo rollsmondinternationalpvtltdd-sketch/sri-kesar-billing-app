@@ -62,7 +62,7 @@ class _SriKesarAppState extends State<SriKesarApp> {
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF1565C0)),
           scaffoldBackgroundColor: const Color(0xFFF5F7FB),
-          cardTheme: CardTheme(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
+          cardTheme: CardThemeData(shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18))),
           inputDecorationTheme: InputDecorationTheme(
             filled: true,
             fillColor: Colors.white,
